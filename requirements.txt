@@ -1,1 +1,2 @@
 # frappe -- https://github.com/frappe/frappe is installed via 'bench init'
+ShopifyAPI==8.2.0  # update after resolving pyjwt conflict in frappe

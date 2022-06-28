@@ -1,1 +1,2 @@
 DLAD Shopify Connector
+dlad_shopify
