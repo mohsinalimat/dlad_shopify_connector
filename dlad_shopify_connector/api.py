@@ -33,7 +33,7 @@ def ping(cmd, name):
 	varient.title = '50g Loose Leaf / Tin update'
 	inv_item = InventoryItem.find(varient.inventory_item_id)
 	print('>>>>>>>>>>>>>>>>>>>>>>>>>>', inv_item)
-	InventoryLevel.set(18705023039, varient.inventory_item_id, 9)
+	InventoryLevel.set(18705023039, varient.inventory_item_id, 0)
 	inv_item.save()
 	# item.save()
 
